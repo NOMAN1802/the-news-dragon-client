@@ -12,7 +12,7 @@ useEffect(()=>{
     .then(data => setCategories(data))
     .catch(error => console.log(error))
 },[])
-console.log(categories);
+// console.log(categories);
     return (
         <div>
             <h4>All category</h4>
